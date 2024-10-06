@@ -1,0 +1,24 @@
+﻿@using StudentData
+@model Student
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Форма редактирования</h1>
+    <form method="post" action="/Home/Edit/?id=@Model.Id" class="text-start">
+        <div class="mb-3">
+            <label for="firstName">Имя</label>
+            <input id="firstName" value="@Model.FirstName" name="firstName" class="form-control" type="text" />
+        </div>
+        <div class="mb-3">
+            <label for="lastName">Фамилия</label>
+            <input id="lastName" value="@Model.LastName" name="lastName" class="form-control" type="text" />
+        </div>        
+        <div class ="mb-3">
+            <label for="midName">Отчество</label>
+            <input id="midName" value="@Model.Midname" name="midName" class="form-control" type="text" />
+        </div>
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+    </form>
+</div>
