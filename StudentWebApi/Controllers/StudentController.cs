@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using StudentData;
 using StudentWebApi.Controllers.Models;
 
@@ -33,7 +34,9 @@ namespace StudentWebApi.Controllers
         // [Route("[action]")] // ДОБАВИТЬ ПУТЬ
         public List<Student> GetAll()
         {
-            var students = _context.Students.ToList();
+            var students = _context.Students
+                .Include(p => p.Group)
+                .ToList();
 
             return students;
         }
