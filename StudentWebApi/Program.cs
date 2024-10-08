@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using StudentData;
 
@@ -12,6 +13,12 @@ namespace StudentWebApi
             // SQLite
             builder.Services.AddDbContext<StudentContext>(options => options.UseSqlite("Data Source = student.db"));
             // Add services to the container.
+
+            // AutoMapper Configuration
+            var mapper = new MapperConfiguration(mc => mc.AddProfile<MapperProfile>())
+                .CreateMapper();
+
+            builder.Services.AddSingleton(mapper);
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

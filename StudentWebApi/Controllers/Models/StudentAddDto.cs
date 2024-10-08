@@ -3,9 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace StudentWebApi.Controllers.Models
 {
-    public class StudentGetDto
+    public class StudentAddDto
     {
-        public int StudentId { get; set; }
 
         public string LastName { get; set; }
 
@@ -13,10 +12,10 @@ namespace StudentWebApi.Controllers.Models
 
         public string Midname { get; set; }
 
-        public string FullName { get; set; }
-
         public string Email { get; set; }
 
-        public string GroupName { get; set; }
+        public int GroupId { get; set; }
+
+        public string Password { get; set; }
     }
 }

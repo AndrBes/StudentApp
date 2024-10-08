@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yQohIwApSuA=",
+  "dgSpecHash": "mVfhR1hkJmQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\StudentWebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ANDREW\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\ANDREW\\.nuget\\packages\\automapper.collection\\10.0.0\\automapper.collection.10.0.0.nupkg.sha512",
     "C:\\Users\\ANDREW\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ANDREW\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\ANDREW\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
