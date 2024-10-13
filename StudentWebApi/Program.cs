@@ -1,6 +1,8 @@
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using StudentData;
+using StudentWebApi.Configuration;
+using StudentWebApi.Services;
 
 namespace StudentWebApi
 {
@@ -9,6 +11,8 @@ namespace StudentWebApi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.Configure<MailConfig>(builder.Configuration.GetSection("MailConfig"));
 
             // SQLite
             builder.Services.AddDbContext<StudentContext>(options => options.UseSqlite("Data Source = student.db"));
@@ -19,6 +23,11 @@ namespace StudentWebApi
                 .CreateMapper();
 
             builder.Services.AddSingleton(mapper);
+            builder.Services.AddSingleton<SingletonService>();
+            builder.Services.AddSingleton<UserVisitService>();
+            builder.Services.AddTransient<TransientService>();
+            builder.Services.AddTransient<TransientService2>();
+            builder.Services.AddScoped<ScopedService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

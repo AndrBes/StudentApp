@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\controllers\\models\\studentgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\controllers\\models\\studentgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\studentwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\studentwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\configuration\\mailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\configuration\\mailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\controllers\\models\\testmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\controllers\\models\\testmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\services\\transientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\services\\transientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\services\\singletonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\services\\singletonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\controllers\\models\\studentgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\controllers\\models\\studentgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\controllers\\models\\studentadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +55,8 @@
       "RelativeMoniker": "D:0:0:{EB1A4200-2840-44F7-93E7-35BFC8BA40C5}|StudentData\\StudentData.csproj|solutionrelative:studentdata\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB1A4200-2840-44F7-93E7-35BFC8BA40C5}|StudentData\\StudentData.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentdata\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB1A4200-2840-44F7-93E7-35BFC8BA40C5}|StudentData\\StudentData.csproj|solutionrelative:studentdata\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\studentwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\studentwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED4C8F31-F197-4BE4-83BF-237CE2F7020E}|StudentWebApp\\StudentWebApp.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapp\\studentwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -45,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EB1A4200-2840-44F7-93E7-35BFC8BA40C5}|StudentData\\StudentData.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentdata\\migrations\\20240917094451_migration1db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB1A4200-2840-44F7-93E7-35BFC8BA40C5}|StudentData\\StudentData.csproj|solutionrelative:studentdata\\migrations\\20240917094451_migration1db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapi\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED4C8F31-F197-4BE4-83BF-237CE2F7020E}|StudentWebApp\\StudentWebApp.csproj|c:\\users\\andrew\\source\\repos\\studentapp\\studentapp\\studentwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,15 +90,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "StudentWebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\appsettings.Development.json",
+              "RelativeToolTip": "StudentWebApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-13T18:28:47.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StudentGetDto.cs",
-              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\Models\\StudentGetDto.cs",
-              "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\Models\\StudentGetDto.cs",
-              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\Models\\StudentGetDto.cs",
-              "RelativeToolTip": "StudentWebApi\\Controllers\\Models\\StudentGetDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T19:31:44.19Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentWebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\appsettings.json",
+              "RelativeToolTip": "StudentWebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-13T18:17:07.437Z",
               "EditorCaption": ""
             },
             {
@@ -91,16 +120,55 @@
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\StudentController.cs*",
-              "RelativeToolTip": "StudentWebApi\\Controllers\\StudentController.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB0AAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentWebApi\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T14:23:12.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "StudentWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Program.cs",
+              "RelativeToolTip": "StudentWebApi\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T15:23:03.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SingletonService.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Services\\SingletonService.cs",
+              "RelativeDocumentMoniker": "StudentWebApi\\Services\\SingletonService.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Services\\SingletonService.cs",
+              "RelativeToolTip": "StudentWebApi\\Services\\SingletonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:44:19.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransientService.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Services\\TransientService.cs",
+              "RelativeDocumentMoniker": "StudentWebApi\\Services\\TransientService.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Services\\TransientService.cs",
+              "RelativeToolTip": "StudentWebApi\\Services\\TransientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:44:22.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TestModel.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\Models\\TestModel.cs",
               "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\Models\\TestModel.cs",
@@ -113,20 +181,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "StudentGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\Models\\StudentGetDto.cs",
+              "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\Models\\StudentGetDto.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\Models\\StudentGetDto.cs",
+              "RelativeToolTip": "StudentWebApi\\Controllers\\Models\\StudentGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:31:44.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\MapperProfile.cs",
               "RelativeDocumentMoniker": "StudentWebApi\\MapperProfile.cs",
-              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\MapperProfile.cs*",
-              "RelativeToolTip": "StudentWebApi\\MapperProfile.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\MapperProfile.cs",
+              "RelativeToolTip": "StudentWebApi\\MapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T07:09:09.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "StudentAddDto.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\Models\\StudentAddDto.cs",
               "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\Models\\StudentAddDto.cs",
@@ -134,64 +214,11 @@
               "RelativeToolTip": "StudentWebApi\\Controllers\\Models\\StudentAddDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T07:41:15.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T07:41:15.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Group.cs",
-              "RelativeDocumentMoniker": "StudentData\\Group.cs",
-              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Group.cs",
-              "RelativeToolTip": "StudentData\\Group.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T18:46:27.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Program.cs",
-              "RelativeDocumentMoniker": "StudentWebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Program.cs",
-              "RelativeToolTip": "StudentWebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T15:23:03.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Student.cs",
-              "RelativeDocumentMoniker": "StudentData\\Student.cs",
-              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Student.cs",
-              "RelativeToolTip": "StudentData\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T18:44:59.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20241006185729_TableStudentForeignKeyGroup2.cs",
-              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Migrations\\20241006185729_TableStudentForeignKeyGroup2.cs",
-              "RelativeDocumentMoniker": "StudentData\\Migrations\\20241006185729_TableStudentForeignKeyGroup2.cs",
-              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Migrations\\20241006185729_TableStudentForeignKeyGroup2.cs",
-              "RelativeToolTip": "StudentData\\Migrations\\20241006185729_TableStudentForeignKeyGroup2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T18:57:29.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "StudentWebApi.csproj",
               "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\StudentWebApi.csproj",
               "RelativeDocumentMoniker": "StudentWebApi\\StudentWebApi.csproj",
@@ -204,7 +231,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
+              "Title": "MailConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Configuration\\MailConfig.cs",
+              "RelativeDocumentMoniker": "StudentWebApi\\Configuration\\MailConfig.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Configuration\\MailConfig.cs",
+              "RelativeToolTip": "StudentWebApi\\Configuration\\MailConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T18:21:09.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Group.cs",
+              "RelativeDocumentMoniker": "StudentData\\Group.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Group.cs",
+              "RelativeToolTip": "StudentData\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:46:27.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Student.cs",
+              "RelativeDocumentMoniker": "StudentData\\Student.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Student.cs",
+              "RelativeToolTip": "StudentData\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:44:59.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241006185729_TableStudentForeignKeyGroup2.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Migrations\\20241006185729_TableStudentForeignKeyGroup2.cs",
+              "RelativeDocumentMoniker": "StudentData\\Migrations\\20241006185729_TableStudentForeignKeyGroup2.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Migrations\\20241006185729_TableStudentForeignKeyGroup2.cs",
+              "RelativeToolTip": "StudentData\\Migrations\\20241006185729_TableStudentForeignKeyGroup2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:57:29.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "20240917094451_Migration1Db.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentData\\Migrations\\20240917094451_Migration1Db.cs",
               "RelativeDocumentMoniker": "StudentData\\Migrations\\20240917094451_Migration1Db.cs",
@@ -212,25 +288,11 @@
               "RelativeToolTip": "StudentData\\Migrations\\20240917094451_Migration1Db.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T18:53:25.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T18:53:25.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GroupController.cs",
-              "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\GroupController.cs",
-              "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\GroupController.cs",
-              "ToolTip": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\Controllers\\GroupController.cs",
-              "RelativeToolTip": "StudentWebApi\\Controllers\\GroupController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T17:49:08.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "StudentWebApp\\Controllers\\HomeController.cs",
@@ -238,12 +300,11 @@
               "RelativeToolTip": "StudentWebApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAASwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T15:07:21.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T15:07:21.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "StudentWebApp.csproj",
               "DocumentMoniker": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApp\\StudentWebApp.csproj",
               "RelativeDocumentMoniker": "StudentWebApp\\StudentWebApp.csproj",
