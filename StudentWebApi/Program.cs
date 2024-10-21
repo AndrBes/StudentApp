@@ -14,6 +14,8 @@ namespace StudentWebApi
 
             builder.Services.Configure<MailConfig>(builder.Configuration.GetSection("MailConfig"));
 
+            var testVar = builder.Configuration.GetValue<string>("TESTVAR");
+            Console.WriteLine(testVar);
             // SQLite
             builder.Services.AddDbContext<StudentContext>(options => options.UseSqlite("Data Source = student.db"));
             // Add services to the container.

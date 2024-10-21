@@ -146,13 +146,10 @@ C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\StudentWebApp.pdb
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Humanizer.dll
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
@@ -275,3 +272,12 @@ C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\obj\Debug\net8.
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\obj\Debug\net8.0\StudentWebApp.pdb
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\obj\Debug\net8.0\StudentWebApp.genruntimeconfig.cache
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\obj\Debug\net8.0\ref\StudentWebApp.dll
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll

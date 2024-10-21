@@ -1,6 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using StudentData;
-
 namespace StudentWebApp
 {
     public class Program
@@ -8,9 +5,6 @@ namespace StudentWebApp
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
-            // SQLite
-            builder.Services.AddDbContext<StudentContext>(options => options.UseSqlite("Data Source = student.db"));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -30,7 +24,7 @@ namespace StudentWebApp
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Student}/{action=Index}/{id?}");
 
             app.Run();
         }

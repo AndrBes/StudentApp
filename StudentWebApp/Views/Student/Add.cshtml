@@ -1,0 +1,33 @@
+﻿@using StudentWebApp.Models
+@model StudentAddDto
+@{
+}
+<div asp-validation-summary="All"></div>
+
+<form action ="/Student/Add" method="post">
+    <div class="form-group">
+        <label>Фамилия</label>
+        <input type="text" value="@Model?.LastName" class="form-control" name="LastName" required>
+    </div>
+    <div class="form-group">
+        <label for="FirstName">Имя</label>
+        <input type="text" value="@Model?.FirstName" class="form-control" name="FirstName" required>
+    </div>
+    <div class="form-group">
+        <label for="MidName">Отчество</label>
+        <input type="text" value="@Model?.Midname" class="form-control" name="MidName">
+    </div>
+    <div class="form-group">
+        <label for="GroupId">Группа</label>
+        <input type="text" value="@Model?.GroupId" class="form-control" name="GroupId" required>
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="text" value="@Model?.Email" class="form-control" name="Email">
+    </div>
+    <div class="form-group">
+        <label for="Password">Пароль</label>
+        <input type="password" class="form-control" name="Password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Отправить</button>
+</form>

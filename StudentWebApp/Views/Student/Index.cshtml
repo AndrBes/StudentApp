@@ -1,0 +1,21 @@
+﻿@using StudentWebApp.Models
+@model List<StudentDto>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<a href="/Student/Add">Добавить студента</a>
+
+<div class="text-center">
+    <table class="table">
+        @foreach(var student in Model)
+        {
+            <tr>
+                <td>@student.StudentId</td>
+                <td>@student.GroupName</td>
+                <td>@student.FullName</td>
+                <td>@student.Email</td>
+            </tr>
+        }
+    </table>
+</div>
+

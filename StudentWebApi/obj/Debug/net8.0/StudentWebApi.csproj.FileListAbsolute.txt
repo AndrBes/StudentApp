@@ -268,3 +268,5 @@ C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApi\bin\Debug\net8.
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApi\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApi\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApi\bin\Debug\net8.0\AutoMapper.Collection.dll
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApi\bin\Debug\net8.0\appsettings.Production.json
+C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentWebApi\bin\Debug\net8.0\appsettings.Stage.json
