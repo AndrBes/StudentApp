@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace StudentWebApi.Controllers.Models
+namespace StudentWebApp.Models.Student
 {
-    public class StudentAddDto
+    public class StudentDto
     {
+        public int StudentId { get; set; }
 
         public string LastName { get; set; }
 
@@ -12,10 +13,13 @@ namespace StudentWebApi.Controllers.Models
 
         public string Midname { get; set; }
 
+        public string FullName { get; set; }
+
         public string Email { get; set; }
+
+        public string GroupName { get; set; }
 
         public int GroupId { get; set; }
 
-        public string Password { get; set; }
     }
 }

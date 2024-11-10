@@ -1,19 +1,51 @@
-﻿@using StudentWebApp.Models
-@model List<StudentDto>
+﻿@using StudentWebApp.Models.StudentViewModels;
+@model StudentIndexViewmodel
 @{
     ViewData["Title"] = "Home Page";
 }
 <a href="/Student/Add">Добавить студента</a>
 
-<div class="text-center">
+<form action="/Student/" method="post" class="mb-3 row row-cols-lg-auto g-3 align-items-center">
+    <div class="form-group">
+        <input type="text" class="form-control" name="LastName" placeholder="Фамилия">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" name="FirstName" placeholder="Имя">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" name="MidName" placeholder="Отчество">
+    </div>
+    <div class="form-group">
+        <select name="GroupId" class="form-control">
+            <option value="">Любая группа</option>
+            @foreach (var item in Model.Groups)
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" name="Email" placeholder="Email">
+    </div>
+    <button type="submit" class="btn btn-primary">Поиск</button>
+</form>
+<div class="text-start">
+    @if (!string.IsNullOrEmpty(TempData["Message"]?.ToString()))
+    {
+        <div class="alert alert-success" role="alert">
+            @TempData["Message"]
+        </div>
+    }
     <table class="table">
-        @foreach(var student in Model)
+        @foreach(var student in Model.Students)
         {
             <tr>
                 <td>@student.StudentId</td>
                 <td>@student.GroupName</td>
                 <td>@student.FullName</td>
                 <td>@student.Email</td>
+                <td><a href="@Url.Action("Edit", "Student", new {id = student.StudentId})">Редактировать</a></td>
+                <td><a href="@Url.Action("Remove", "Student", new {id = student.StudentId})">Удалить</a></td>
             </tr>
         }
     </table>

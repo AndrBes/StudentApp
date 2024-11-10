@@ -129,7 +129,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "StudentWebApi.Controllers.Models.StudentAddDto",
+        "Type": "StudentWebApi.Controllers.Models.Student.StudentAddDto",
         "IsRequired": true
       }
     ],
@@ -183,7 +183,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "StudentWebApi.Controllers.Models.StudentGetDto",
+        "Type": "StudentWebApi.Controllers.Models.Student.StudentGetDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -197,13 +197,19 @@
     "ContainingType": "StudentWebApi.Controllers.StudentController",
     "Method": "GetAll",
     "RelativePath": "Student/GetAll",
-    "HttpMethod": "GET",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "StudentWebApi.Controllers.Models.Student.StudentFilterDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[StudentWebApi.Controllers.Models.StudentGetDto, StudentWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[StudentWebApi.Controllers.Models.Student.StudentGetDto, StudentWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

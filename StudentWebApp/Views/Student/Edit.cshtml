@@ -1,0 +1,39 @@
+﻿@using StudentWebApp.Models.StudentViewModels
+@model StudentEditViewmodel
+@{
+}
+<div asp-validation-summary="All"></div>
+
+<form action ="/Student/Edit/" method="post">
+    <input type="hidden" value="@Model?.Student.StudentId" name="Id">
+    <div class="form-group">
+        <label>Фамилия</label>
+        <input type="text" value="@Model?.Student.LastName" class="form-control" name="LastName" required>
+    </div>
+    <div class="form-group">
+        <label for="FirstName">Имя</label>
+        <input type="text" value="@Model?.Student.FirstName" class="form-control" name="FirstName" required>
+    </div>
+    <div class="form-group">
+        <label for="MidName">Отчество</label>
+        <input type="text" value="@Model?.Student.Midname" class="form-control" name="MidName">
+    </div>
+    <div class="form-group">
+        <label for="GroupId">Группа</label>
+        <select name="GroupId" class="form-control">
+            @foreach (var item in Model.Groups)
+            {
+                <option value="@item.Id" selected="@(item.Id == Model?.Student?.GroupId)">@item.Name</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="text" value="@Model?.Student.Email" class="form-control" name="Email">
+    </div>
+    <div class="form-group">
+        <label for="Password">Пароль</label>
+        <input type="password" class="form-control" name="Password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</form>

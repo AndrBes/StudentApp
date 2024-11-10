@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using StudentData;
-using StudentWebApi.Controllers.Models;
+using StudentWebApi.Controllers.Models.Student;
 
 namespace StudentWebApi
 {
@@ -15,10 +15,7 @@ namespace StudentWebApi
                 opt => opt.MapFrom(src => src.Id))
                 // Объединение ФИО - FullName
                 .ForMember(dest => dest.FullName,
-                opt => opt.MapFrom(src => $"{src.LastName} {src.FirstName} {src.Midname}"))
-                // Не отправлять Email
-                .ForMember(dest => dest.Email,
-                opt => opt.Ignore());
+                opt => opt.MapFrom(src => $"{src.LastName} {src.FirstName} {src.Midname}"));
         }
     }
 }

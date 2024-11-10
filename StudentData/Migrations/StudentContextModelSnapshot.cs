@@ -38,7 +38,6 @@ namespace StudentWebApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")
@@ -53,7 +52,6 @@ namespace StudentWebApp.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Midname")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Password")

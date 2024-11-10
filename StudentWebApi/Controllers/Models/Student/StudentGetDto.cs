@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace StudentWebApi.Controllers.Models
+namespace StudentWebApi.Controllers.Models.Student
 {
     public class StudentGetDto
     {
@@ -18,5 +18,7 @@ namespace StudentWebApi.Controllers.Models
         public string Email { get; set; }
 
         public string GroupName { get; set; }
+
+        public int GroupId { get; set; }
     }
 }

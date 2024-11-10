@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using StudentData;
 using StudentWebApi.Configuration;
-using StudentWebApi.Controllers.Models;
+using StudentWebApi.Controllers.Models.Student;
 using StudentWebApi.Services;
 
 namespace StudentWebApi.Controllers;
@@ -60,16 +60,28 @@ public class StudentController(ILogger<StudentController> _logger,
         var studentDto = _mapper.Map<StudentGetDto>(student);
         return studentDto;
     }
-    [HttpGet]
+    [HttpPost]
     // [Route("[action]")] // ДОБАВИТЬ ПУТЬ
-    public List<StudentGetDto> GetAll()
+    public List<StudentGetDto> GetAll(StudentFilterDto model)
     {
-        var students = _context.Students
+
+
+
+
+        var query = _context.Students.AsQueryable();
+
+        if (!string.IsNullOrEmpty(model.LastName)) query = query.Where(x =>  x.LastName.Contains(model.LastName));
+        if (!string.IsNullOrEmpty(model.FirstName)) query = query.Where(x => x.FirstName.Contains(model.FirstName));
+        if (!string.IsNullOrEmpty(model.Midname)) query = query.Where(x => x.Midname.Contains(model.Midname));
+        if (!string.IsNullOrEmpty(model.Email)) query = query.Where(x => x.Email.Contains(model.Email));
+        if (model.GroupId != null) query = query.Where(x => x.GroupId == model.GroupId);
+
+        return query
             .Include(p => p.Group)
-            // Нужен чтобы не отправлять в запросе пароль и другие ненужные данные (чек консоль)
+            //Нужен чтобы не отправлять в запросе пароль и другие ненужные данные(чек консоль)
             .ProjectTo<StudentGetDto>(_mapper.ConfigurationProvider)
             .ToList();
-        var studentsDto = _mapper.Map<List<StudentGetDto>>(students);
+        //var studentsDto = _mapper.Map<List<StudentGetDto>>(students);
 
         //    students.Select(x => new StudentGetDto
         //{
@@ -81,7 +93,6 @@ public class StudentController(ILogger<StudentController> _logger,
         //    Email = x.Email,
         //}).ToList();
 
-        return studentsDto;
     }
     [HttpDelete]
     public void Delete(int id)

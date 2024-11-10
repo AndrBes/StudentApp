@@ -1,3 +1,5 @@
+using StudentWebApp.Services;
+
 namespace StudentWebApp
 {
     public class Program
@@ -8,7 +10,11 @@ namespace StudentWebApp
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddScoped<StudentApiService>();
+            builder.Services.AddHttpClient("StudentApi", httpClient =>
+            {
+                httpClient.BaseAddress = new Uri("http://localhost:5254");
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

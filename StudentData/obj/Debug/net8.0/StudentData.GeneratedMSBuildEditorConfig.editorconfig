@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentData
-build_property.ProjectDir = C:\Users\ANDREW\source\repos\StudentApp\StudentApp\StudentData\
+build_property.ProjectDir = C:\Users\ANDREW\Documents\GitHub\StudentApp\StudentData\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mVfhR1hkJmQ=",
+  "dgSpecHash": "XuzVW0O6BPs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ANDREW\\source\\repos\\StudentApp\\StudentApp\\StudentWebApi\\StudentWebApi.csproj",
+  "projectFilePath": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApi\\StudentWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ANDREW\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ANDREW\\.nuget\\packages\\automapper.collection\\10.0.0\\automapper.collection.10.0.0.nupkg.sha512",
