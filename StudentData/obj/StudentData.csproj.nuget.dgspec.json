@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\StudentData.csproj": {}
+    "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\StudentData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\StudentData.csproj": {
+    "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\StudentData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\StudentData.csproj",
+        "projectUniqueName": "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\StudentData.csproj",
         "projectName": "StudentData",
-        "projectPath": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\StudentData.csproj",
-        "packagesPath": "C:\\Users\\ANDREW\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\obj\\",
+        "projectPath": "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\StudentData.csproj",
+        "packagesPath": "C:\\Users\\A.A.Besprozvannyi\\.nuget\\packages\\",
+        "outputPath": "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ANDREW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A.A.Besprozvannyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
