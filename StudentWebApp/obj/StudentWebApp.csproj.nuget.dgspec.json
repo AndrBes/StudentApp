@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Беспрозванный А.А\\StudentApp\\StudentWebApp\\StudentWebApp.csproj": {}
+    "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApp\\StudentWebApp.csproj": {}
   },
   "projects": {
-    "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\StudentData.csproj": {
+    "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\StudentData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\StudentData.csproj",
+        "projectUniqueName": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\StudentData.csproj",
         "projectName": "StudentData",
-        "projectPath": "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\StudentData.csproj",
-        "packagesPath": "C:\\Users\\A.A.Besprozvannyi\\.nuget\\packages\\",
-        "outputPath": "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\obj\\",
+        "projectPath": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\StudentData.csproj",
+        "packagesPath": "C:\\Users\\ANDREW\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A.A.Besprozvannyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANDREW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Беспрозванный А.А\\StudentApp\\StudentWebApp\\StudentWebApp.csproj": {
+    "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApp\\StudentWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Беспрозванный А.А\\StudentApp\\StudentWebApp\\StudentWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApp\\StudentWebApp.csproj",
         "projectName": "StudentWebApp",
-        "projectPath": "E:\\Беспрозванный А.А\\StudentApp\\StudentWebApp\\StudentWebApp.csproj",
-        "packagesPath": "C:\\Users\\A.A.Besprozvannyi\\.nuget\\packages\\",
-        "outputPath": "E:\\Беспрозванный А.А\\StudentApp\\StudentWebApp\\obj\\",
+        "projectPath": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApp\\StudentWebApp.csproj",
+        "packagesPath": "C:\\Users\\ANDREW\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A.A.Besprozvannyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANDREW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,14 +97,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\StudentData.csproj": {
-                "projectPath": "E:\\Беспрозванный А.А\\StudentApp\\StudentData\\StudentData.csproj"
+              "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\StudentData.csproj": {
+                "projectPath": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentData\\StudentData.csproj"
               }
             }
           }
@@ -195,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

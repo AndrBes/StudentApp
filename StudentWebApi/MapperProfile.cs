@@ -16,6 +16,7 @@ namespace StudentWebApi
                 // Объединение ФИО - FullName
                 .ForMember(dest => dest.FullName,
                 opt => opt.MapFrom(src => $"{src.LastName} {src.FirstName} {src.Midname}"));
+            CreateMap<Student, StudentPostDto>();
         }
     }
 }

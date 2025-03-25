@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -9,9 +10,9 @@ using StudentWebApi.Controllers.Models.Student;
 using StudentWebApi.Services;
 
 namespace StudentWebApi.Controllers;
-
+[Authorize]
 [ApiController]
-[Route("[controller]/[action]")] // ДЕФОЛТ ПУТЬ ДО ФУНКЦИИ
+[Route("api/[controller]/[action]")] // ДЕФОЛТ ПУТЬ ДО ФУНКЦИИ
 public class StudentController(ILogger<StudentController> _logger,
     StudentContext _context,
     IMapper _mapper,
@@ -42,14 +43,19 @@ public class StudentController(ILogger<StudentController> _logger,
 
         return $"Singleton обращения: {_singletonService.Counter}, Scoped обращения: {_scopedService.Counter}, Transient обращения: {_transientService.Counter}, Количество онлайн: {userVisitService.UserVisits.Count}";
     }
-
     [HttpPut]
-    public Student Add([FromBody] StudentAddDto model)
+    public StudentGetDto Add([FromBody] StudentAddDto model)
     {
         var student = _mapper.Map<Student>(model);
+
+        student.Group = _context.Groups.FirstOrDefault(x => x.Id == model.GroupId);
+
         _context.Students.Add(student);
         _context.SaveChanges();
-        return student;
+
+        var response = _mapper.Map<StudentGetDto>(student);
+
+        return response;
     }
     [HttpGet]
     public StudentGetDto? Get(int id)
@@ -105,20 +111,24 @@ public class StudentController(ILogger<StudentController> _logger,
         }
     }
     [HttpPost]
-    public Student? Post([FromBody] Student model)
+    public StudentGetDto? Post([FromBody] StudentPostDto model)
     {
-        var student = _context.Students.FirstOrDefault(x => x.Id == model.Id);
+        var student = _context.Students.FirstOrDefault(x => x.Id == model.StudentId);
+        var group = _context.Groups.FirstOrDefault(x => x.Id == model.GroupId);
+
         if (student != null)
         {
             student.FirstName = model.FirstName;
             student.LastName = model.LastName;
             student.Midname = model.Midname;
             student.GroupId = model.GroupId;
+            student.Group = group;
 
             _context.Students.Update(student);
             _context.SaveChanges();
         }
 
-        return student;
+        var responseDto = _mapper.Map<StudentGetDto>(student);
+        return responseDto;
     }
 }

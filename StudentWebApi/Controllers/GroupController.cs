@@ -5,7 +5,7 @@ using StudentWebApi.Controllers.Models;
 namespace StudentWebApi.Controllers
 {
     [ApiController]
-    [Route("[controller]/[action]")] // ДЕФОЛТ ПУТЬ ДО ФУНКЦИИ
+    [Route("api/[controller]/[action]")] // ДЕФОЛТ ПУТЬ ДО ФУНКЦИИ
     public class GroupController : ControllerBase
     {
         private readonly ILogger<StudentController> _logger;

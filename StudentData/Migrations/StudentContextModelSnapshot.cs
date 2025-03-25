@@ -65,6 +65,25 @@ namespace StudentWebApp.Migrations
                     b.ToTable("Students");
                 });
 
+            modelBuilder.Entity("StudentData.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Login")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("StudentData.Student", b =>
                 {
                     b.HasOne("StudentData.Group", "Group")
