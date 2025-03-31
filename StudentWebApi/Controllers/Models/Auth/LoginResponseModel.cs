@@ -8,6 +8,8 @@ namespace StudentWebApi.Controllers.Models.Student
 
         public int Status { get; set; }
 
-        public string Token { get; set; }
+        public string? Token { get; set; }
+
+        public string? Login { get; set; }
     }
 }

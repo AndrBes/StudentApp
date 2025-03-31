@@ -292,6 +292,26 @@
     ]
   },
   {
+    "ContainingType": "StudentWebApi.Controllers.UserController",
+    "Method": "Info",
+    "RelativePath": "api/User/Info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "StudentData.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "StudentWebApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "api/WeatherForecast",

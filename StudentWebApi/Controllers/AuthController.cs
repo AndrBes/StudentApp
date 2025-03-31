@@ -46,6 +46,6 @@ public class AuthController(ILogger<StudentController> _logger,
 
         var token = new JwtSecurityTokenHandler().WriteToken(jwt);
 
-        return new LoginResponseModel { Status = 0, Token = token };
+        return new LoginResponseModel { Status = 0, Token = token , Login = user.Login};
     }
 }
