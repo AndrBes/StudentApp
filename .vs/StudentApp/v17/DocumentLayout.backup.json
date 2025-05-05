@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\documents\\github\\studentapp\\studentwebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\documents\\github\\studentapp\\studentwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\documents\\github\\studentapp\\studentwebapi\\controllers\\models\\auth\\loginrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\controllers\\models\\auth\\loginrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\documents\\github\\studentapp\\studentwebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|solutionrelative:studentwebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08296737-B74B-441C-B232-263A63BF2F3C}|StudentWebApi\\StudentWebApi.csproj|c:\\users\\andrew\\documents\\github\\studentapp\\studentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\UserController.cs",
@@ -111,12 +111,11 @@
               "RelativeToolTip": "StudentWebApi\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T13:37:10.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T13:37:10.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\AuthController.cs",
@@ -124,18 +123,17 @@
               "RelativeToolTip": "StudentWebApi\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T13:20:46.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T13:20:46.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApi\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApi\\Controllers\\StudentController.cs",
               "RelativeToolTip": "StudentWebApi\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwAwAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T11:08:44.067Z",
               "EditorCaption": ""
@@ -166,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoginResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApi\\Controllers\\Models\\Auth\\LoginResponseModel.cs",
               "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\Models\\Auth\\LoginResponseModel.cs",
@@ -174,8 +172,7 @@
               "RelativeToolTip": "StudentWebApi\\Controllers\\Models\\Auth\\LoginResponseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T13:20:12.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T13:20:12.498Z"
             },
             {
               "$type": "Document",
@@ -191,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthOptions.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApi\\Controllers\\Models\\AuthOptions.cs",
               "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\Models\\AuthOptions.cs",
@@ -199,12 +196,11 @@
               "RelativeToolTip": "StudentWebApi\\Controllers\\Models\\AuthOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T13:49:23.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T13:49:23.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoginRequestModel.cs",
               "DocumentMoniker": "C:\\Users\\ANDREW\\Documents\\GitHub\\StudentApp\\StudentWebApi\\Controllers\\Models\\Auth\\LoginRequestModel.cs",
               "RelativeDocumentMoniker": "StudentWebApi\\Controllers\\Models\\Auth\\LoginRequestModel.cs",
@@ -212,8 +208,7 @@
               "RelativeToolTip": "StudentWebApi\\Controllers\\Models\\Auth\\LoginRequestModel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T13:22:36.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T13:22:36.31Z"
             },
             {
               "$type": "Document",
